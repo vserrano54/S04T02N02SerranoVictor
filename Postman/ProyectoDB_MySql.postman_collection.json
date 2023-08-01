@@ -1,0 +1,428 @@
+{
+	"info": {
+		"_postman_id": "74587aaf-725a-423c-b292-b0f9b84b3146",
+		"name": "ProyectoDB_MySql",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15335648"
+	},
+	"item": [
+		{
+			"name": "add_Mazana",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"Manzana\",\r\n    \"cantidadKilos\": 3.50\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{servidor}}:{{Puerto}}/fruta/add",
+					"host": [
+						"{{servidor}}"
+					],
+					"port": "{{Puerto}}",
+					"path": [
+						"fruta",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add_Arándano",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\":\"Arándano\",\r\n    \"cantidadKilos\":6.8\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{servidor}}:{{Puerto}}/fruta/add",
+					"host": [
+						"{{servidor}}"
+					],
+					"port": "{{Puerto}}",
+					"path": [
+						"fruta",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add_Fresa",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\":\"Fresa\",\r\n    \"cantidadKilos\":7.5\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{servidor}}:{{Puerto}}/fruta/add",
+					"host": [
+						"{{servidor}}"
+					],
+					"port": "{{Puerto}}",
+					"path": [
+						"fruta",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add_Mandarina",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\":\"Mandarina\",\r\n    \"cantidadKilos\":8.20\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{servidor}}:{{Puerto}}/fruta/add",
+					"host": [
+						"{{servidor}}"
+					],
+					"port": "{{Puerto}}",
+					"path": [
+						"fruta",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add_Naranja",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\":\"Naranja\",\r\n    \"cantidadKilos\":3.5\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{servidor}}:{{Puerto}}/fruta/add",
+					"host": [
+						"{{servidor}}"
+					],
+					"port": "{{Puerto}}",
+					"path": [
+						"fruta",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getOne/1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\":\"Naranja\",\r\n    \"cantidadKilos\":3.5\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{servidor}}:{{Puerto}}/fruta/getOne/1",
+					"host": [
+						"{{servidor}}"
+					],
+					"port": "{{Puerto}}",
+					"path": [
+						"fruta",
+						"getOne",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getOne/2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\":\"Naranja\",\r\n    \"cantidadKilos\":3.5\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{servidor}}:{{Puerto}}/fruta/getOne/2",
+					"host": [
+						"{{servidor}}"
+					],
+					"port": "{{Puerto}}",
+					"path": [
+						"fruta",
+						"getOne",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getOne/3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\":\"Naranja\",\r\n    \"cantidadKilos\":3.5\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{servidor}}:{{Puerto}}/fruta/getOne/3",
+					"host": [
+						"{{servidor}}"
+					],
+					"port": "{{Puerto}}",
+					"path": [
+						"fruta",
+						"getOne",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getOne/4",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\":\"Naranja\",\r\n    \"cantidadKilos\":3.5\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{servidor}}:{{Puerto}}/fruta/getOne/4",
+					"host": [
+						"{{servidor}}"
+					],
+					"port": "{{Puerto}}",
+					"path": [
+						"fruta",
+						"getOne",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getOne/5",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\":\"Naranja\",\r\n    \"cantidadKilos\":3.5\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{servidor}}:{{Puerto}}/fruta/getOne/5",
+					"host": [
+						"{{servidor}}"
+					],
+					"port": "{{Puerto}}",
+					"path": [
+						"fruta",
+						"getOne",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update/5",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 5,\r\n    \"nombre\": \"Naranja madura\",\r\n    \"cantidadKilos\": 4.5\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{servidor}}:{{Puerto}}/fruta/update/5",
+					"host": [
+						"{{servidor}}"
+					],
+					"port": "{{Puerto}}",
+					"path": [
+						"fruta",
+						"update",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update/4",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 4,\r\n    \"nombre\": \"Mandarina Grande\",\r\n    \"cantidadKilos\": 9.8\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{servidor}}:{{Puerto}}/fruta/update/4",
+					"host": [
+						"{{servidor}}"
+					],
+					"port": "{{Puerto}}",
+					"path": [
+						"fruta",
+						"update",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAll",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 4,\r\n    \"nombre\": \"Mandarina Grande\",\r\n    \"cantidadKilos\": 9.8\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{servidor}}:{{Puerto}}/fruta/getAll",
+					"host": [
+						"{{servidor}}"
+					],
+					"port": "{{Puerto}}",
+					"path": [
+						"fruta",
+						"getAll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete/5",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 4,\r\n    \"nombre\": \"Mandarina Grande\",\r\n    \"cantidadKilos\": 9.8\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{servidor}}:{{Puerto}}/fruta/delete/5",
+					"host": [
+						"{{servidor}}"
+					],
+					"port": "{{Puerto}}",
+					"path": [
+						"fruta",
+						"delete",
+						"5"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
